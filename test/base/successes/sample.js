@@ -1,6 +1,14 @@
 const Koa = null;
 const log = null;
 
+export const allowNewLines = (obj) =>
+  Array.isArray(obj) || Array.isArray(obj);
+
+export const allowTernary = (obj) =>
+  obj
+    ? 'a'
+    : 'b';
+
 export default function server() {
   const app = new Koa();
   // logger
