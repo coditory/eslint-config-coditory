@@ -1,8 +1,8 @@
 # Coditory eslint configuration
 
-[![Travis Build](https://img.shields.io/travis/coditory/eslint-config-coditory.svg?style=flat-square)](https://travis-ci.org/coditory/eslint-config-coditory)
-[![NPM Version](https://img.shields.io/npm/v/eslint-config-coditory.svg?style=flat-square)](http://npm.im/eslint-config-coditory)
-[![NPM Downloads](https://img.shields.io/npm/dm/eslint-config-coditory.svg?style=flat-square)](http://npm-stat.com/charts.html?package=eslint-config-coditory&from=2015-08-01)
+[![Travis Build](https://img.shields.io/travis/coditory/@coditory/eslint-config-coditory.svg?style=flat-square)](https://travis-ci.org/coditory/eslint-config-coditory)
+[![NPM Version](https://img.shields.io/npm/v/@coditory/eslint-config-coditory.svg?style=flat-square)](http://npm.im/eslint-config-coditory)
+[![NPM Downloads](https://img.shields.io/npm/dm/@coditory/eslint-config-coditory.svg?style=flat-square)](http://npm-stat.com/charts.html?package=eslint-config-coditory&from=2015-08-01)
 
 [Eslint](http://eslint.org/) configuration used in [Coditory](https://github.com/coditory).
 It is an extension of well known [eslint-airbnb-config](https://github.com/airbnb/javascript).
