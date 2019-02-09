@@ -5,11 +5,12 @@ base:
     node: true
     mocha: true
   rules:
-    arrow-parens: [error, always]
+    arrow-parens: [error, as-needed]
     comma-dangle: [error, never]
     no-unused-expressions: [0]
     no-prototype-builtins: 0
     no-confusing-arrow: 0
+    no-plusplus: 0
     implicit-arrow-linebreak: 0
 
 # index config
@@ -30,13 +31,8 @@ index:
     no-unused-expressions: [0]
     no-prototype-builtins: 0
     no-confusing-arrow: 0
+    no-plusplus: 0
     implicit-arrow-linebreak: 0
-
-# koa config
-koa:
-  extends: ./index.js
-  rules:
-    no-param-reassign: 0
 
 # react config
 react:
