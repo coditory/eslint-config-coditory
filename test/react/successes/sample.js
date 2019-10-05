@@ -25,12 +25,12 @@ Countries.propTypes = {
   onMounted: PropTypes.func.isRequired
 };
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   isLoaded: (state.countries.items != null
     && !state.countries.isFetching)
 });
 
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = dispatch => ({
   onMounted: () => dispatch(fetchCountriesIfNeeded())
 });
 
