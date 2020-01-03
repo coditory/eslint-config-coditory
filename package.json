@@ -1,6 +1,6 @@
 {
   "name": "@coditory/eslint-config-coditory",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "Coditory linter rules for JavaScript.",
   "homepage": "https://github.com/coditory/eslint-config-coditory",
   "license": "WTFPL",
